@@ -1,0 +1,118 @@
+[
+    {
+        "id": 1,
+        "name": "Inception",
+        "director": "Christopher Nolan",
+        "description": "Un voleur, qui s'infiltre dans les rêves d'autrui, a pour mission d'implanter une idée dans l'esprit d'un individu.",
+        "categorie": "Science-fiction", // nouvelle table catégorie
+        "availability": 30,
+        "duration": 148,
+        "langues_disponibles": [ // nouvelle table langue
+            "Anglais",
+            "Français"
+        ],
+        "sous_titres_disponibles": [ // nouvelle table langue
+            "Anglais",
+            "Français",
+            "Espagnol"
+        ],
+        "year": 2010,
+        "country": "États-Unis",
+        "image_url": "film/inception.jpg",
+        "video_url": "https://example.com/inception.mp4",
+        "film_de_semaine": true, // nouvelle table film de semaine
+        "mise_en_avant": false // nouvelle table mise en avant
+    },
+    {
+        "id": 2,
+        "name": "Le Labyrinthe",
+        "director": "Wes Ball",
+        "description": "Des adolescents sont piégés dans un labyrinthe et doivent trouver comment s'échapper, en dévoilant les sombres secrets de l'endroit.",
+        "categorie": "Science-fiction",
+        "availability": "Accès Libre",
+        "duration": 113,
+        "langues_disponibles": [
+            "Anglais",
+            "Français"
+        ],
+        "sous_titres_disponibles": [
+            "Français",
+            "Allemand",
+            "Anglais"
+        ],
+        "year": 2014,
+        "country": "États-Unis",
+        "image_url": "film/labyrinth.jpg",
+        "video_url": "https://example.com/lelabyrinthe.mp4",
+        "film_de_semaine": true,
+        "mise_en_avant": false
+    },
+    {
+        "id": 3,
+        "name": "Les Évadés",
+        "director": "Frank Darabont",
+        "description": "Accusé du meurtre de sa femme, un homme est envoyé dans une prison de haute sécurité, où il forme une amitié remarquable.",
+        "categorie": "Drame",
+        "availability": 45,
+        "duration": 142,
+        "langues_disponibles": [
+            "Anglais"
+        ],
+        "sous_titres_disponibles": [
+            "Français",
+            "Italien"
+        ],
+        "year": 1994,
+        "country": "États-Unis",
+        "image_url": "film/lesevades.jpg",
+        "video_url": "https://example.com/lesevades.mp4",
+        "film_de_semaine": true,
+        "mise_en_avant": false
+    },
+    {
+        "id": 4,
+        "name": "Interstellar",
+        "director": "Christopher Nolan",
+        "description": "Des explorateurs utilisent un trou de ver dans l'espace pour assurer la survie de l'humanité.",
+        "categorie": "Science-fiction",
+        "availability": 60,
+        "duration": 169,
+        "langues_disponibles": [
+            "Anglais"
+        ],
+        "sous_titres_disponibles": [
+            "Anglais",
+            "Français",
+            "Espagnol"
+        ],
+        "year": 2014,
+        "country": "États-Unis",
+        "image_url": "film/interstellar.jpg",
+        "video_url": "https://example.com/interstellar.mp4",
+        "film_de_semaine": false,
+        "mise_en_avant": true
+    },
+    {
+        "id": 5,
+        "name": "Le Parrain",
+        "director": "Francis Ford Coppola",
+        "description": "L'histoire d'une dynastie de la mafia sicilienne aux États-Unis, sous le règne du patriarche Vito Corleone.",
+        "categorie": "Crime",
+        "availability": 30,
+        "duration": 175,
+        "langues_disponibles": [
+            "Anglais",
+            "Italien"
+        ],
+        "sous_titres_disponibles": [
+            "Anglais",
+            "Français"
+        ],
+        "year": 1972,
+        "country": "États-Unis",
+        "image_url": "film/leparrain.jpg",
+        "video_url": "https://example.com/leparrain.mp4",
+        "film_de_semaine": true,
+        "mise_en_avant": true
+    }
+]
